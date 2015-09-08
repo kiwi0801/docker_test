@@ -7,4 +7,5 @@ ADD ./src /src
 
 EXPOSE 5000
 
+
 CMD cd /src; nodejs .
