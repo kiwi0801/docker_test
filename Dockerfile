@@ -5,7 +5,6 @@ RUN apt-get install -y nodejs
 RUN mkdir /src; cd /src
 ADD ./src /src
 
-EXPOSE 5000
-
+EXPOSE 3000
 
 CMD cd /src; nodejs .
