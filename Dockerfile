@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER kiwi
+MAINTAINER kiwi_chang
 RUN apt-get install -y nodejs
 RUN mkdir /src; cd /src
 ADD ./src /src
